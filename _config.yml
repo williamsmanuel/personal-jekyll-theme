@@ -222,6 +222,8 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+  - webrick
+
 
 
 
