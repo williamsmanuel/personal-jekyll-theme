@@ -4,6 +4,9 @@ rvm:
 - 2.5
 
 install: gem install jekyll jekyll-paginate jemoji html-proofer
+install: bundle install
+script: bundle install
+script: bundle exec jekyll serve
 script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore
 
 env:
