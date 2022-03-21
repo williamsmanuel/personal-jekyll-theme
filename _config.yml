@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "https://williamsmanuel.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -220,10 +220,5 @@ sass:
   style: compressed
 
 gems:
-  "jekyll", "~> 4.0"
+  - jekyll-paginate
   - jemoji
-  - webrick
-
-
-
-
