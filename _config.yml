@@ -220,7 +220,7 @@ sass:
   style: compressed
 
 gems:
-  - jekyll-paginate
+  "jekyll", "~> 4.0"
   - jemoji
   - webrick
 
