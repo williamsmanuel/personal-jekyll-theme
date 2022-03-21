@@ -55,10 +55,27 @@ First, you need to install jekyll and the dependencies of { Personal } by runnin
 ./scripts/install
 ```
 
+Second, you need to install bundle and the dependencies of { Personal } by running:
+
+```shell
+ bundle init
+```
+then
+
+```shell
+ bundle update
+```
+Edit Gemfile to include the jekyll gem:
+
+```shell
+gem "webrick"
+gem "jekyll", "~> 4.0"
+```
+
 Then, you can build and serve your website by simply running:
 
 ```shell
-./scripts/serve-production
+bundle exec jekyll serve
 ```
 
 To serve across lan (requires su to forward the port 4000 over lan):
